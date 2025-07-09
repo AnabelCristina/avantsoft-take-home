@@ -1,5 +1,4 @@
-from core import update_client, delete_client, list_clients, create_client
-from views import up
+from .views import update_client, delete_client, list_clients, create_client
 from django.urls import path
 
 urlpatterns = [
