@@ -26,3 +26,4 @@ class Sale(models.Model):
     def make_sale(self, client, value, date):
         sale = self.create(client = client, value = value, date = date)
         return sale
+    
